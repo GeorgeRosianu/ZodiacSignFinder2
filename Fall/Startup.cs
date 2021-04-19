@@ -31,7 +31,7 @@ namespace Fall
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<GreeterService>();
+                endpoints.MapGrpcService<Services.FallSignsService>();
 
                 endpoints.MapGet("/", async context =>
                 {
