@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Seasons", "Seasons", "{342A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring", "Spring\Spring.csproj", "{AF323CF8-56D5-49A8-8AEE-43EA33CC088B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Summer", "Summer\Summer.csproj", "{B28CE4B6-B9D5-421D-BFD4-0AADD5B88FF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{AF323CF8-56D5-49A8-8AEE-43EA33CC088B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF323CF8-56D5-49A8-8AEE-43EA33CC088B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF323CF8-56D5-49A8-8AEE-43EA33CC088B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28CE4B6-B9D5-421D-BFD4-0AADD5B88FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28CE4B6-B9D5-421D-BFD4-0AADD5B88FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28CE4B6-B9D5-421D-BFD4-0AADD5B88FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28CE4B6-B9D5-421D-BFD4-0AADD5B88FF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
