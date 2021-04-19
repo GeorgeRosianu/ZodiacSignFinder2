@@ -31,7 +31,7 @@ namespace Spring
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<GreeterService>();
+                endpoints.MapGrpcService<Services.SpringSignsService>();
 
                 endpoints.MapGet("/", async context =>
                 {
