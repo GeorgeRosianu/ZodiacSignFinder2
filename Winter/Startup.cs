@@ -31,7 +31,7 @@ namespace Winter
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<GreeterService>();
+                endpoints.MapGrpcService<Services.WinterSignsService>();
 
                 endpoints.MapGet("/", async context =>
                 {
