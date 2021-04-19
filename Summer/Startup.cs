@@ -31,7 +31,7 @@ namespace Summer
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<GreeterService>();
+                endpoints.MapGrpcService<Services.SummerSignsService>();
 
                 endpoints.MapGet("/", async context =>
                 {
