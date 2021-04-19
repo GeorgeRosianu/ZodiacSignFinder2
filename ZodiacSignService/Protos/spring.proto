@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "SpringSignsClient";
+
+package springZodiacSigns;
+
+service SpringZodiacSigns {
+	rpc FindZodiacSign (SpringZodiacRequest) returns (SpringZodiacResponse);
+}
+
+message SpringZodiacRequest {
+	string birthDate = 1;
+}
+
+message SpringZodiacResponse {
+	ZodiacSign sign = 1;
+}
+
+message ZodiacSign {
+	string name = 1;
+	int32 startDay = 2;
+	int32 startMonth = 3;
+	int32 endDay = 4;
+	int32 endMonth = 5;
+
+}
