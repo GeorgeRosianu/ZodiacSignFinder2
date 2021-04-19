@@ -31,7 +31,7 @@ namespace ZodiacSignService
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<GreeterService>();
+                endpoints.MapGrpcService<Services.ZodiacSignFinderService>();
 
                 endpoints.MapGet("/", async context =>
                 {
