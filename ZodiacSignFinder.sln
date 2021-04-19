@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring", "Spring\Spring.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Summer", "Summer\Summer.csproj", "{B28CE4B6-B9D5-421D-BFD4-0AADD5B88FF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winter", "Winter\Winter.csproj", "{8ABF1794-AC04-499A-A008-6E495737ACEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{B28CE4B6-B9D5-421D-BFD4-0AADD5B88FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B28CE4B6-B9D5-421D-BFD4-0AADD5B88FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B28CE4B6-B9D5-421D-BFD4-0AADD5B88FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ABF1794-AC04-499A-A008-6E495737ACEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABF1794-AC04-499A-A008-6E495737ACEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABF1794-AC04-499A-A008-6E495737ACEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABF1794-AC04-499A-A008-6E495737ACEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{50ACB43E-4780-4E61-A2BE-6E3748E09E99} = {342AFFBC-826A-42CE-92BA-60B44DF7A5AD}
 		{AF323CF8-56D5-49A8-8AEE-43EA33CC088B} = {342AFFBC-826A-42CE-92BA-60B44DF7A5AD}
+		{B28CE4B6-B9D5-421D-BFD4-0AADD5B88FF0} = {342AFFBC-826A-42CE-92BA-60B44DF7A5AD}
+		{8ABF1794-AC04-499A-A008-6E495737ACEF} = {342AFFBC-826A-42CE-92BA-60B44DF7A5AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {50B0A800-6932-4F8E-A584-7E5E6FCC681A}
